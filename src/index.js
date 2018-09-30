@@ -38,7 +38,7 @@ module.exports = function makeExchange(currency) {
 
 
 	var P = Math.floor(currency / 1);
-	if(P > 0) {
+	if(P) {
 		object.P = P;
 	}
 	var currency = currency % 1;
